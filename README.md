@@ -12,5 +12,5 @@ https://jameswoo.github.io
 
 ## Bottom Section ##
 1. Replace the right image to your personal image (no group photo, just your personal photo)
-2. Replace the paragraph to order list. Add five movie titles that you like most.
-3. Change the button text to “My Github”, link it to your Github page.  The link should be opened in self window.
+2. Replace the paragraph to ordered list (number list). Add five movie titles that you like most.
+3. Change the button 3 text to “My Github”, link it to your Github page.  The link should be opened in self window.
