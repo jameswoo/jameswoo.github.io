@@ -11,6 +11,6 @@ https://jameswoo.github.io
 5. Button 2, change the text to “Instagram”, include a IG icon next to it. And then link them to your personal IG account. The link should be opened in new window.
 
 ## Bottom Section ##
-1. Replace the right image to your personal image (no group photo, just your personal photo)
+1. Replace the right image to your personal image (no group photo, just your personal photo). Make sure it fits.
 2. Replace the paragraph to ordered list (number list). Add five movie titles that you like most.
 3. Change the button 3 text to “My Github”, link it to your Github page.  The link should be opened in self window.
