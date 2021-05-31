@@ -4,6 +4,9 @@ Again, try to understand every single line of elements first, then only start wo
 You may preview the sample content here:
 https://jameswoo.github.io/week3-sample.html
 
+There are five demo screenshots below. For each homework, you would need to follow exactly like the screenshot: color, images / background image, layout, spacing.
+For the font, just use Lato (check my sample file to see how I install and use them)
+
 ## Homework 1 ##
 Inline-style: 
 ![alt text](https://jameswoo.github.io/images/week3-homework1.jpg "Homework 1")
