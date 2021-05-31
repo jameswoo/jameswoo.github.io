@@ -1,5 +1,5 @@
 # Web Design Week 3 Homework 1-5 #
-Start working from the sample files (week3-sample.html). 
+Start working from the sample files ([week3-sample.html](https://github.com/jameswoo/jameswoo.github.io/blob/main/week3-sample.html)). 
 Again, try to understand every single line of elements first, then only start working.
 You may preview the sample content here:
 https://jameswoo.github.io/week3-sample.html
