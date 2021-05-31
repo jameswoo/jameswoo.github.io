@@ -1,3 +1,30 @@
+# Web Design Week 3 Homework 1-5 #
+Start working from the sample files (week3-sample.html). 
+Again, try to understand every single line of elements first, then only start working.
+You may preview the sample content here:
+https://jameswoo.github.io/week3-sample.html
+
+## Homework 1 ##
+Inline-style: 
+![alt text](https://jameswoo.github.io/images/week3-homework1.jpg "Homework 1")
+
+## Homework 2 ##
+Inline-style: 
+![alt text](https://jameswoo.github.io/images/week3-homework2.jpg "Homework 1")
+
+## Homework 3 ##
+Inline-style: 
+![alt text](https://jameswoo.github.io/images/week3-homework3.jpg "Homework 1")
+
+## Homework 4 ##
+Inline-style: 
+![alt text](https://jameswoo.github.io/images/week3-homework4.jpg "Homework 1")
+
+## Homework 5 ##
+Inline-style: 
+![alt text](https://jameswoo.github.io/images/week3-homework5.jpg "Homework 1")
+
+
 # Web Design Week 2 Exercise 2 #
 Start working from the sample files. Try to understand every single line of elements first, then only start working.
 You may preview the sample content here:
