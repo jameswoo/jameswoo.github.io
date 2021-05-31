@@ -4,29 +4,25 @@ Again, try to understand every single line of elements first, then only start wo
 You may preview the sample content here:
 https://jameswoo.github.io/week3-sample.html
 
-There are five demo screenshots below. For each homework, you would need to follow exactly like the screenshot: color, images / background image, layout, spacing.
+There are five demo screenshots below. For each homework, you would need to follow EXACTLY as the screenshot: color, images / background image, layout, spacing. Use this [color checker](https://html-color-codes.info/colors-from-image/) to check the color code.
 For the font, just use Lato (check my sample file to see how I install and use them)
 
 ## Homework 1 ##
-Inline-style: 
 ![alt text](https://jameswoo.github.io/images/week3-homework1.jpg "Homework 1")
 
 ## Homework 2 ##
-Inline-style: 
 ![alt text](https://jameswoo.github.io/images/week3-homework2.jpg "Homework 1")
 
 ## Homework 3 ##
-Inline-style: 
 ![alt text](https://jameswoo.github.io/images/week3-homework3.jpg "Homework 1")
 
 ## Homework 4 ##
-Inline-style: 
 ![alt text](https://jameswoo.github.io/images/week3-homework4.jpg "Homework 1")
 
 ## Homework 5 ##
-Inline-style: 
 ![alt text](https://jameswoo.github.io/images/week3-homework5.jpg "Homework 1")
 
+***
 
 # Web Design Week 2 Exercise 2 #
 Start working from the sample files. Try to understand every single line of elements first, then only start working.
