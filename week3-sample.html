@@ -6,14 +6,16 @@
             body {
                 background-color:bisque;
                 font-size:larger;
-                margin: 0px;
+                margin: 0px; 
+                font-family: 'Lato', sans-serif; /* If Lato not available, use sans-serif */
+                font-size: 3vw; /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
             }
             .container1 {
-                height: 20vh; /* 20% height of the full page */
+                height: 20vh; /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
+                text-align: center;
             }
             .container2 { /* Target those elements containing class (dot) called 'container' */
                 display: flex; /* This is the magic to make the 2 div align horizontally */
-                font-family: 'Lato', sans-serif; /* If Lato not available, use sans-serif */
                 height: 80vh; /* 80% height of the full page */
             }
             .container2 .box { /* All the .box under .container */
@@ -45,6 +47,7 @@
     </head>
     <body>
         <div class="container1">
+            <h1>My Title</h1>
         </div>
         <div class="container2">
             <div id="box1" class="box">
