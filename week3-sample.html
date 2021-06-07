@@ -6,15 +6,34 @@
             body {
                 background-color:bisque;
                 font-size:larger;
+                margin: 0px;
             }
-            .container { /* Target those elements containing class (dot) called 'container' */
-                display: flex; /* This is the magic to make the 3 div align horizontally */
+            .container1 {
+                height: 20vh; /* 20% height of the full page */
+            }
+            .container2 { /* Target those elements containing class (dot) called 'container' */
+                display: flex; /* This is the magic to make the 2 div align horizontally */
                 font-family: 'Lato', sans-serif; /* If Lato not available, use sans-serif */
+                height: 80vh; /* 80% height of the full page */
             }
-            .container div { /* All the div under container */
-                text-align: center;
-                width: 33.33%; /* Each column would takes up 33.33%, so total up to 100% */
+            .container2 .box { /* All the .box under .container */
+                width: 50%; /* Each column would takes up 50%, so equally sharing spaces left and right */
+                background-image: url("images/unsplash.jpg");
+                background-size: cover;
+                background-position: center center;
+
+                display: flex; /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+                align-items: center; /* vertically center */
             }
+            .box div {
+                width: 100%;
+            }
+            #box1 {
+                text-align: left;
+            }
+            #box2 {
+                text-align: right;
+            }                        
         </style>
         <!-- this is HTML Comment 
          The 2 lines below is to install Google Fonts. 
@@ -25,10 +44,15 @@
 
     </head>
     <body>
-        <div class="container">
-            <div>Box 1</div>
-            <div>Box 2</div>
-            <div>Box 3</div>
+        <div class="container1">
+        </div>
+        <div class="container2">
+            <div id="box1" class="box">
+                <div>Box 1</div>
+            </div>
+            <div id="box2" class="box">
+                <div>Box 2</div>
+            </div>
         </div>
     </body>
 </html>
