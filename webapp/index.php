@@ -1,6 +1,3 @@
-<?php 
-include 'classes/product.php';
-?>
 <!DOCTYPE HTML>
 <html>
 
@@ -24,7 +21,8 @@ include 'classes/product.php';
                     throw new Exception("All fields cannot be empty");
                 if (!is_numeric($_POST["price"]))
                     throw new Exception("Enter number only for Price");    
-
+                
+                include 'classes/product.php';
                 $product = new Product($_POST['name'], $_POST['description'], $_POST['price']);
                 $result = $product->insertNewProduct();
                 // Execute the query
@@ -32,7 +30,6 @@ include 'classes/product.php';
                     echo "<div class='alert alert-success'>Record was saved.</div>";
                 } else {
                     throw new Exception("Unable to save record.");  
-                    echo "<div class='alert alert-danger'>Unable to save record.</div>";
                 }
             } catch (Exception $e){
                 echo "<div class='alert alert-danger'>".$e->getMessage()."</div>";
