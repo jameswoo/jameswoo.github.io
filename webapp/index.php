@@ -59,8 +59,8 @@
                 </tr>
             </table>
         </form>
-        <button class="add-one">Clone the form</form>
-        <button class="remove-one">remove one form</form>
+        <button class="add-one">Clone the Description Row</form>
+        <button class="remove-one">Remove last Description Row</form>
     </div>
     <!-- end .container -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
@@ -69,22 +69,20 @@
 
             // If the clicked element doesn't have the right selector, bail
             if (event.target.matches('.add-one')) {
-                // Don't follow the link
-                event.preventDefault();
                 // Get the element
                 var elem = document.querySelector('.des');
-                // Create a copy of it
+                // Clone a copy of it
                 var clone = elem.cloneNode(true);
-                // Inject it into the DOM
+                // Inject it into the end of DOM
                 elem.after(clone);
             }
             if (event.target.matches('.remove-one')) {
-                // Don't follow the link
-                event.preventDefault();
-                var total = document.querySelectorAll('tr.des').length;
+                // get the total number of the element
+                var total = document.querySelectorAll('.des').length;
+                // not to delete if left only 1
                 if (total > 1){
-                    var elem = document.querySelector('tr.des');
-                    //console.log(elem);
+                    var elem = document.querySelector('.des');
+                    // Remove the last element
                     elem.remove(elem);
                 }
             }        
