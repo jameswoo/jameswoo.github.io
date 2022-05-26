@@ -2,7 +2,9 @@
 Start working from the sample files ([week3-sample.html](https://github.com/jameswoo/jameswoo.github.io/blob/main/week3-sample.html)). 
 Again, try to understand every single line of elements first, then only start working.
 You may preview the sample content here:
+Sample 1: Dump the image on the left column
 https://jameswoo.github.io/week3-sample.html
+Sample 2: Using Background Image in CSS
 https://jameswoo.github.io/week3-sample-background-image.html
 
 There are five demo screenshots below. For each homework, you would need to follow EXACTLY as the screenshot: font size, color, images / background image, layout, spacing. Use this [color checker](https://html-color-codes.info/colors-from-image/) to check the color code.
