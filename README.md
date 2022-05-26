@@ -8,19 +8,20 @@ https://jameswoo.github.io/week3-sample-background-image.html
 There are five demo screenshots below. For each homework, you would need to follow EXACTLY as the screenshot: font size, color, images / background image, layout, spacing. Use this [color checker](https://html-color-codes.info/colors-from-image/) to check the color code.
 For the font, since you haven't learned how to install Google font, just use 'Lato' for all homeworks (check my sample file to see how I install and use them)
 
-## Homework 1 ##
+Put all your html files under "homework" folder under "week3" folder:
+## Homework 1 (homework1.html) ##
 ![alt text](https://jameswoo.github.io/images/week3-homework1.jpg "Homework 1")
 
-## Homework 2 ##
+## Homework 2 (homework2.html) ##
 ![alt text](https://jameswoo.github.io/images/week3-homework2.jpg "Homework 1")
 
-## Homework 3 ##
+## Homework 3 (homework3.html) ##
 ![alt text](https://jameswoo.github.io/images/week3-homework3.jpg "Homework 1")
 
-## Homework 4 ##
+## Homework 4 (homework4.html) ##
 ![alt text](https://jameswoo.github.io/images/week3-homework4.jpg "Homework 1")
 
-## Homework 5 ##
+## Homework 5 (homework5.html) ##
 ![alt text](https://jameswoo.github.io/images/week3-homework5.jpg "Homework 1")
 
 ***
