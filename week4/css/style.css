@@ -1,0 +1,11 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-weight: 900; /* to make it bold as I have included the font weight */
+    margin-bottom: 0px; /* get rid of the default bottom margin of h1 */
+}
+p{
+    /* no need to specify the font weight because the 400 font weight is by default */
+    margin-top: 0px; /* get rid of the default top margin of p */
+}
