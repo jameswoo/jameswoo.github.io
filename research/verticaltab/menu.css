@@ -1,0 +1,104 @@
+.section {
+    background-color: var(--primary);
+    z-index: 1;
+}
+.menu_open {
+    cursor: pointer;
+    text-align: right;
+}
+.menu_open p {
+    line-height: 0.4;
+}
+
+.menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50rem;
+    height: 100vh;
+    z-index: -1;
+}
+.menu_wrapper {
+    padding: 12.8rem 4rem 4rem 4rem;
+    height: inherit;
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu_list {
+    counter-reset: menu-list;
+}
+.menu_list::before {
+    position: relative;
+    font-size: 2rem;
+    opacity: 0.5;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+.menu_list:nth-child(1)::before {
+    content: 'Sitemap';
+}
+.menu_list:nth-child(2)::before {
+    content: 'Featured Works';
+}
+.menu_list:nth-child(3)::before {
+    content: 'Follow Us';
+}
+.menu_list_item {
+    position: relative;
+    width: fit-content;
+    opacity: 0.5;
+    transition: opacity 0.15s ease-in;
+}
+.menu_list_item:hover {
+    opacity: 1;
+}
+.menu_list_item:nth-child(1) .menu_list_item::after,
+.menu_list_item:nth-child(2) .menu_list_item::after
+ {
+    counter-increment: menu-list;
+    content: '0' counter(menu-list);
+    position: absolute;
+    bottom: 1rem;
+    right: -2rem;
+}
+.menu_list_item a {
+    display: block;
+    color: var(--primary);
+    font-size: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.menu_list:nth-child(3) .menu_list_item a {
+    font-size: 2.8rem;
+}
+.menu_open {
+    cursor: pointer;
+    text-align: right;
+}
+.menu_open p {
+    line-height: 0.4;
+}
+.menu_close {
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    border: 1px solid var(--primary);
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.menu_close_item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem
+}
+
+@media screen and (max-width: 768px) {
+    .menu_list_item a{
+        font-size: 6rem;
+    }
+}
+

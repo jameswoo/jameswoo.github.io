@@ -24,3 +24,54 @@ const addDesktopListeners = () => {
 }
 
 init();
+
+const menu = document.querySelector('.menu');
+const menuItems = document.querySelectorAll('.menu_list');
+const menuItemsAnchor = document.querySelectorAll('.menu_list_item');
+const openButton = document.querySelector('.menu_open');
+const closeButton = document.querySelector('.menu_close');
+
+const tl = gsap.timeline({
+    paused: true,
+    defaults: {
+        duration: 0.92,
+        ease: 'expo.inOut'
+    }
+});
+const initMenu = () => {
+    gsap.set(menu, { pointerEvents: 'none', autoAlpha: 0 });
+    gsap.set(menuItems, { autoAlpha: 0 });
+    gsap.set(menuItemsAnchor, { x: 0, stagger: 0.016 });
+    tl.to(
+        menu, {
+        pointerEvents: 'auto', stagger: 0.02, autoAlpha: 1
+    }, 0
+    ).to(menuItems,
+        { autoAlpha: 1 }, 0.08
+    ).to(menuItemsAnchor,
+        { x: 0, stagger: 0.016 });
+
+    tl.to('.app', {
+        x: '-50rem',
+    }, 0).to('.section_header div', {
+        autoAlpha: 0,
+    }, 0).to('body', {
+        backgroundColor: '#111111',
+        overflow: 'hidden',
+        pointerEvents: 'none',
+    }, 0.2)
+}
+
+const open = () => {
+    tl.play();
+    menu.style.pointerEvents = 'auto';
+}
+const close = () => {
+    tl.reverse();
+    menu.style.pointerEvents = 'none';
+}
+
+openButton.addEventListener('click', open);
+closeButton.addEventListener('click', close);
+
+initMenu()
