@@ -24,7 +24,7 @@
     color: var(--primary);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .menu_list {
     counter-reset: menu-list;
@@ -47,7 +47,7 @@
 }
 .menu_list_item {
     position: relative;
-    width: fit-content;
+    /*width: fit-content;*/
     opacity: 0.5;
     transition: opacity 0.15s ease-in;
 }

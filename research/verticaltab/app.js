@@ -41,7 +41,7 @@ const tl = gsap.timeline({
 const initMenu = () => {
     gsap.set(menu, { pointerEvents: 'none', autoAlpha: 0 });
     gsap.set(menuItems, { autoAlpha: 0 });
-    gsap.set(menuItemsAnchor, { x: 0, stagger: 0.016 });
+    gsap.set(menuItemsAnchor, { x: '10%', stagger: 0.05 });
     tl.to(
         menu, {
         pointerEvents: 'auto', stagger: 0.02, autoAlpha: 1
@@ -49,7 +49,7 @@ const initMenu = () => {
     ).to(menuItems,
         { autoAlpha: 1 }, 0.08
     ).to(menuItemsAnchor,
-        { x: 0, stagger: 0.016 });
+        { x: 0, stagger: 0.05 }, 0.3);
 
     tl.to('.app', {
         x: '-50rem',
@@ -59,7 +59,7 @@ const initMenu = () => {
         backgroundColor: '#111111',
         overflow: 'hidden',
         pointerEvents: 'none',
-    }, 0.2)
+    }, 0)
 }
 
 const open = () => {
