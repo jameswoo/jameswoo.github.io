@@ -15,7 +15,7 @@
     right: 0;
     top: 0;
     width: 50rem;
-    height: 100vh;
+    height: 100dvh;
     z-index: -1;
 }
 .menu_wrapper {
