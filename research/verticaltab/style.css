@@ -198,7 +198,7 @@ img.section_col_img {
     }
     .section_col {
         width: 100%;
-        height: calc(25vh - 3.2rem);
+        height: calc(25dvh - 3.2rem);
         flex-direction: row;
         align-items: flex-end;
         padding: 2rem;
