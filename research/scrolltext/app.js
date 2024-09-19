@@ -8,6 +8,7 @@ const selector = {
 }
 
 const initLenis = () => {
+
     const lenis = new Lenis({
         lerp: 0.05,
         smoothWheel: true,
@@ -23,15 +24,16 @@ const initScroll = () => {
         autoAlpha: 1, scale: 1, yPercent: 0
     });
     gsap.set('.word', {
-        autoAlpha: 0.4
+        autoAlpha: 0.3
     });
 
     const tl = gsap.timeline({
         scrollTrigger: {
             trigger: '.hero',
-            start: 'top top',
-            end: 'bottom bottom',
+            start: 'center center',
+            end: 'bottom center',
             scrub: 1,
+            markers: true,
         },
     });
 
@@ -45,7 +47,7 @@ const initScroll = () => {
             {
                 duration: 20,
                 scale: 0.95,
-                autoAlpha: 0,
+                autoAlpha: 0.3,
                 yPercent: -5,
             },
             0
@@ -59,7 +61,5 @@ const initScroll = () => {
             },
             0
         );
-
 }
-window.addEventListener('DOMContentloaded', initLenis);
-
+window.addEventListener('DOMContentLoaded', initLenis);
