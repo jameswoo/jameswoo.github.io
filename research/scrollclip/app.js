@@ -45,7 +45,7 @@ const animatedMedia = () => {
         };
         gsap.set(thumbnails, { yPercent: 100 });
         gsap.set(medias, { clipPath: 'inset(0 0 0 0)' });
-        gsap.set([heading.title, heading.roles, heading.cases], { yPercent: 100 });
+        gsap.set([heading.title, heading.roles, heading.cases], { yPercent: 0 });
 
         tlMain
             .to(thumbnails, {

@@ -64,7 +64,7 @@ html.lenis {
 }
 .section {
     position: relative;
-    height: 80vh;
+    height: 80dvh;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ html.lenis {
 .gallery {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
 }
 .gallery_container {
@@ -128,7 +128,7 @@ html.lenis {
 .gallery_media {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
 }
 .gallery_media_figure {
     position: relative;
@@ -160,7 +160,7 @@ html.lenis {
 .gallery_ending {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
