@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Transition</title>
+    <link rel="stylesheet" href="../js/settings.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-barba="wrapper">
+    <div class="nav">
+        <div class="nav_wrapper">
+            <div class="nav_item">
+                <span>Logo</span>
+            </div>
+            <div class="nav_item">
+                <a href="index.html" class="nav_item_page --active">Home</a>
+                <a href="work.html" class="nav_item_page">Work</a>
+            </div>
+            <div class="nav_item">
+                <a href="/" class="nav_item_page">About</a>
+                <a href="/" class="nav_item_page">Contact</a>
+            </div>
+            <div class="nav_item">
+                <span>Lorem ipsum dolor sit amet</span>
+                <span>consectetur adipisicing elit.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="pt"></div>
+
+    <main class="app" data-barba="container" data-barba-namespace="home">
+        <div class="hero">
+            <div class="hero_wrapper">
+                <div class="hero_title">
+                    <h1>.P-LINK</h1>
+                </div>
+                <div class="hero_video">
+                    <video src="https://videos.pexels.com/video-files/5575177/5575177-hd_1280_720_50fps.mp4"
+                        width="100%" play autoplay loop muted playsinline></video>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>script>
+    <script src="app.js"></script>
+</body>
+
+</html>
